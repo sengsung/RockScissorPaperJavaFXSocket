@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="97.0" maxWidth="294.0" minHeight="97.0" minWidth="294.0" prefHeight="97.0" prefWidth="294.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.rsp.java.Controller">
+   <children>
+      <Button fx:id="btn_server" layoutX="24.0" layoutY="23.0" mnemonicParsing="false" onAction="#showServer" prefHeight="55.0" prefWidth="117.0" text="서버" />
+      <Button fx:id="btn_client" layoutX="153.0" layoutY="23.0" mnemonicParsing="false" onAction="#showClient" prefHeight="55.0" prefWidth="117.0" text="클라이언트" />
+   </children>
+</Pane>
